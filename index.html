@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Fuzzy+Bubbles:wght@400;700&family=Poppins:wght@400;700&family=Quicksand:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--Fontawesome Link-->
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="fontawesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Fuzzy+Bubbles:wght@400;700&family=Poppins:wght@400;700&family=Quicksand:wght@400;700&family=Raleway:wght@400;700&family=The+Nautigal:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Personal Portfolio</title>
+
+    <style>
+        body{
+            margin: 0;
+        }
+
+         .nav-list-style{
+             color: gray;
+            transition: 1s;
+        }
+        .nav-list-style:hover{
+            text-decoration: underline;
+            text-decoration-color: blue;
+            color: black;
+            padding-top: 1px;
+            font-size: 16px;
+        }
+
+        .logo{
+            font-family: 'The Nautigal', cursive;
+            font-size: 45px;
+        }
+
+        .flexible-container{
+         display: flex;
+        margin-bottom:70px;
+        }
+
+
+.content{
+    position: absolute;
+    top: 33%;
+    left: 7%;
+}
+
+.content .text{
+    font-size: 27px;
+    color: #2c3e50;
+}
+
+.content .name{
+    font-size: 75px;
+    color: #2c3e50;
+    margin: -20px 0 0 -3px;
+}
+
+.content .job{
+    font-size: 40px;
+    color: #2c3e50;
+    display: flex;
+}
+
+.content .job .typing-text{
+    color: #111fe4;
+    margin-left: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid #111fe4;
+    animation: typing 5s steps(15) infinite;
+}
+
+@keyframes typing {
+    0%{
+        width: 0ch;
+    }
+
+    50%{
+        width: 14ch;
+    }
+
+    100%{
+        width: 0ch;
+    }
+}
+
+.content .buttons{
+    margin: 20px 0 0 50px;
+}
+
+.link-btn{
+    color: #fff;
+    font-weight: 500;
+    margin: 0 10px;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    transition: 1s;
+    background: linear-gradient(165deg, #2afadf 10%, #c346c2 100%);
+}
+
+.link-btn:hover{
+    background: blue;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+p{
+    color: dimgrey;
+}
+
+.orange-color{
+    color: orange;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+
+.half-width img{
+    width: 80%;
+}
+
+
+
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.alert-btn{
+    transition: 1s;
+}
+.alert-btn:hover{
+    box-shadow: 10px 10px 40px gray;
+}
+
+.skill-box{
+    transition: 1s;
+}
+.skill-box:hover{
+    box-shadow: 5px 5px 40px gray;
+}
+
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px grey;
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-sm ">
+                <a href="#" class="navbar-brand logo text-dark font-weight-bold ">
+                    Sayan
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="navbar-item active"><a class="nav-list-style nav-link" href="#">HOME</a></li>
+                        <li class="navbar-item"><a class="nav-list-style nav-link " href="#">ABOUT</a></li>
+                        <li class="navbar-item"><a class="nav-list-style nav-link" href="#">SKILLS</a></li>
+                        <li class="navbar-item"><a class="nav-list-style nav-link " href="#">WORK</a></li>
+                        <li class="navbar-item"><a class="nav-list-style nav-link" href="#">CONTACT</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!--Welcome Section Start-->
+        <section class="top-banner flexible-container">
+            <div class="half-width">
+                <div class="content">
+                    <div class="text-content">
+                        <div class="text">Hello, I'm</div>
+                        <div class="name">Sayan Pal</div>
+                        <div class="job">
+                            <span>And, I'm a</span>
+                            <div class="typing-text">
+                                <span>Web</span>
+                                <span>Devoloper</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="link-btn">HIRE ME</button>
+                        <button class="link-btn">CONTACT ME</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="half-width">
+                <img src="images/jhankar.png"  alt="";>
+            </div>
+        </section>
+            <!--Welcome Section End-->
+
+
+          <!--Dream Big Start-->
+          
+          <section class="dream-big flexible-container">
+            <div class="half-width">
+                <img src="images/jhankar2.png" alt="">
+            </div>
+            <div class="half-width">
+                <h1>Dream Big</h1>
+                <h2>Become a Web Developer</h2>
+                <p>I already learned the basic HTML and CSS. I can build any simple website. I can even teach my grandma how to make simple website. My goal is to build 3 websites and learn advanced topics</p>
+                <button class="link-btn">
+                    DOWNLOAD RESUME
+                </button>
+            </div>
+        </section>
+
+        <!--Dream Big End-->
+
+        <!--About Section Start-->
+        <section>
+            <div class="jumbotron pt-2">
+                <div>
+                    <h2 class="text-center font-weight-bold">About Me</h2>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-lg-4 text-center">
+                        <img src="images/sayan.jpg" class="img-fluid rounded-circle" alt="">
+                    </div>
+                    <div class="col-lg-8 text-center">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt harum odit nobis ipsam officia, culpa consectetur. Ipsa, optio numquam facere hic voluptate maxime voluptates deleniti reiciendis molestias molestiae, quidem aut cum possimus aliquam repudiandae? Quia possimus nostrum officia. Consequuntur reprehenderit nemo blanditiis doloremque porro quia molestiae aliquid, perspiciatis maxime alias debitis, est at laudantium magnam voluptas animi ut, in iste. Suscipit maxime deserunt impedit, corrupti sunt beatae officia quo modi saepe reprehenderit tempora laboriosam nulla ipsam repellendus possimus? Rem nulla quo maiores esse voluptates eos porro iusto ab odit in, voluptate sed voluptatum laudantium doloremque, nihil explicabo impedit, reprehenderit dolores.
+
+                            <a href="#demo" data-toggle="collapse">Learn More..</a>
+                        </p>
+
+                        <div id="demo" class="collapse">
+                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit explicabo adipisci modi quidem repellat aliquam, laudantium facere ullam quod, velit amet dolores pariatur! Doloremque nam voluptatum, ipsam ducimus eveniet in a delectus ut aperiam similique molestias quaerat, doloribus necessitatibus voluptatem qui! Illum eos libero magnam excepturi suscipit rerum vero earum labore, incidunt iusto, quis consequatur cumque id, quam et facere exercitationem velit! Aliquid laborum, nihil excepturi autem voluptatum unde molestias harum consequuntur ipsa quos ducimus voluptatibus a repellat quam illum, obcaecati quibusdam ad quidem repellendus eligendi sint hic. Omnis nam rem aliquam. Mollitia possimus nisi officia. Repudiandae molestiae ab quia!</p>
+                        </div>
+
+                        <div class="alert alert-warning alert-dismissible alert-btn">
+                            <i class="fab fa-youtube fa-2x bg-danger p-2 text-white rounded-circle"></i>
+                            <button class="close" data-dismiss="alert">&times;</button>
+                            Have you seen my Youtube? <a href="">Visit Here</a>
+                        </div>
+
+                        <div class="alert alert-success alert-dismissible alert-btn">
+                            <i class="fab fa-facebook fa-2x bg-primary p-2 text-white rounded-circle"></i>
+                            <button class="close" data-dismiss="alert">&times;</button>
+                            Have you seen my Facebook? <a href="">Visit Here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--About Section End-->
+
+
+        <!--Skill Area Start-->
+        
+        <section>
+            <div>
+                <h2 class="text-center font-weight-bold">S K I L L S</h2>
+            </div>
+
+            <div class="row text-center mt-3">
+                <div class="col-lg-3 skill-box">
+                    <div class="card">
+                        <img class="card-img-top" src="images/web-design.jpg" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title font-weight-bold">Web Design</h3>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum quia quis reiciendis laborum voluptatum! Reprehenderit neque, atque nam asperiores voluptates voluptatem laboriosam ex</p>
+
+                            <a href="#" class="card-link">Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 skill-box">
+                    <div class="card">
+                        <img class="card-img-top" src="images/web-devoloment.jpg" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title font-weight-bold">Web Devolopment</h3>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum quia quis Lorem ipsum dolor sit amet consectetur adipisicing Loremip </p>
+
+                            <a href="#" class="card-link">Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 skill-box">
+                    <div class="card">
+                        <img class="card-img-top" src="images/wordpress.jpg" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title font-weight-bold">Wordpress</h3>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum quia quis reiciendis laborum voluptatum! Reprehenderit neque, atque nam asperiores voluptates voluptatem laboriosam ex</p>
+
+                            <a href="#" class="card-link">Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 skill-box">
+                    <div class="card">
+                        <img class="card-img-top" src="images/seo.jpg" alt="">
+                        <div class="card-body">
+                            <h3 class="card-title font-weight-bold">SEO</h3>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum quia quis reiciendis laborum voluptatum! Reprehenderit neque, atque nam asperiores voluptates voluptatem laboriosam ex</p>
+
+                            <a href="#" class="card-link">Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Skill Area End-->
+
+        <!--Experience Area Start-->
+
+        <section class="experience-area mt-3">
+            <h1>Experience</h1>
+    
+            <div class="flexible-container mt-3">
+                <div id="full-stack" class="experience-item">
+                    <h2>Full Stack Devoloper</h2>
+                    <h3 class="orange-color">2024-Present | Pro Level Developer</h3>
+                    <p>I am the master of HTML, CSS and Javascript. I know everything needed to make a website function, efficient. I didn't stop with the web. I went beyond with most popular Javascript framework called Vue JS. I even know the deployment, server and security. I will give you 100% web solution.</p>
+                </div>
+        
+                <div id="baby-web" class="experience-item">
+                    <h2>Baby Web Devoloper</h2>
+                    <h3 class="orange-color">2022-2024 | Hero Learner</h3>
+                    <p>They didn't offer me a job. But I made myself as a remove web developer. I made their website and showed it to them. They liked it. And uploaded the content. It was fun working at Programming Hero.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Experience Area End-->
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
